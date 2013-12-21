@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{@title_page}</title>
+	{@@meta_tag}
+	{@@scripts}
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+  	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+</head>
+<body>
+	<div class="container">
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">
+					
+				</a>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    			<ul class="nav navbar-nav">
+    				<li class="dropdown">
+    					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Usuarios <b class="caret"></b></a>
+    					<ul class="dropdown-menu">
+    						<li>
+    							<a href="{@site_path}main/addUsers" id="addOp">{@addOp}</a>
+    						</li>
+    						<li>
+    							<a href="#">{@editOp}</a>
+    						</li>
+    						<li>
+    							<a href="#">{@deleteOp}</a>
+    						</li>
+    						<!-- <li class="divider"></li> -->
+    					</ul>
+    				</li>
+    			</ul>
+    		</div>
+		</nav>
+	    <div class="row-fluid">
+	        <div class="span2">
+	            <ul class="nav nav-pills nav-stacked">
+	                <li class="active"><a href="#"><i class="fa fa-home fa-fw"></i>{@op1}</a></li>
+	            </ul>
+	        </div>
+	        <div class="span10 well" id="bodyPlace">
+	            {#contentBodyPlace}
+	        </div>
+	    </div>
+	</div>
+</body>
+</html>

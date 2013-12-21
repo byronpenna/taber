@@ -1,0 +1,16 @@
+{
+	"title_page" : "Pagina principal",
+	"addOp" : "Agregar",
+	"editOp" : "Editar",
+	"deleteOp" : "Elimínar",
+	"op1" : "valor",
+
+	"nameFrm" : "Nombres:",
+	"last_nameFrm": "Apellidos:",
+	"birthdayFrm" : "Fecha nacimiento:",
+	"usernameFrm" : "Usuario:",
+	"passFrm" : "Contraseña:",
+	"addBtnFrm" : "Agregar",
+	"resetBtnFrm" : "reset"
+
+}
