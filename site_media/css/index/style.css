@@ -1,9 +1,26 @@
 #twitter-widget-0{
    width: 100% !important;  
    height: auto;
-   min-height: 150px;
+   min-height: 350px;
+}
+.flexslider{
+	margin: 0;
+}
+.flex-control-nav{
+	display: none;
 }
 .downloads{
 	background: red;
 	width: 100%;
+}
+#fb-root {
+    display: none;
+    min-height: 350px;
+}
+
+/* To fill the container and nothing else */
+
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+    width: 100% !important;
+    min-height: 350px;
 }
