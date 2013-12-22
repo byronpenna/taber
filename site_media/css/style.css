@@ -44,12 +44,13 @@ h2 .titleText{
 	color: #ecf0f1;
 }
 .contactTitleBanner h3{
-	margin-top: 5%;
+	/*margin-top: 5%;*/
 }
 .contactTitleBanner h4,.contactTitleBanner h3{
 	font-family: 'bonveno';
 	font-weight: bold;
 	margin: 0;
+	width: auto;
 }
 .socialnetwork img{
 	width: 10%;
