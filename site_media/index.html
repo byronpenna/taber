@@ -1,46 +1,37 @@
-<html>
+<!DOCTYPE HTML>
+<html lang="{@lang}" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:fb="http://ogp.me/ns/fb#">
 <head>
 	<title>{@title_page}</title>
 	{@@meta_tag}
-	<link rel="stylesheet" type="text/css" href="{@html_path}/resources/bootstrap/css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="{@html_path}/resources/bootstrap/css/bootstrap-responsive.css">
-	<link rel="stylesheet" type="text/css" href="{@html_path}/css/style.css">
+	<meta name="description" content="Tabernáculo Bíblico 
+	Bautista Amigos de Israel ciudad credisa es una iglesia ubicada en Soyapango
+	donde se predica y transforman vidas atraves del evangelio de nuestro señor Jesucristo.">
+	<meta name="keywords" content="Iglesia evangelica,Tabernáculo Ciudad Credisa,Edwin Corcio,Tabernaculo,Ciudad credisa">
+	{@@scripts}
+	<link rel="stylesheet" type="text/css" href="site_media/css/index/style.css">
+	<link rel="stylesheet" type="text/css" href="site_media/css/framework/slider/flexslider.css">
+	<script type="text/javascript" src="site_media/js/framework/flexslider/jquery.flexslider.js"></script>
+	<script type="text/javascript" src="site_media/js/index/script.js"></script>
 </head>
 <body>
-	<div class="container">
-		<div class="well">
-			<fieldset>
-				<legend>Iniciar sesion</legend>
-					<form action="{@site_path}index/logueo" class="form-horizontal" method="POST">
-						<div class="control-group">
-							<label for="username" class="control-label">Usuario:</label>
-							<div class="controls">
-								<input type="text" name="username" id="username" >
-							</div>
-						</div>
-						<div class="control-group">
-							<label for="pass" class="control-label">Contraseña:</label>
-							<div class="controls">
-								<input type="password" name="pass" id="pass">
-							</div>
-						</div>
-						<div class="control-group">
-							<div class="controls">
-								<button class="btn btn-primary" type="submit">Ingresar sesion</button>
-								<button class="btn btn-warning" type="reset">Limpiar</button>
-							</div>
-						</div>
-						<div class="control-group">
-							<div class="controls">
-								{#messaje}
-							</div>
-						</div>
-					</form>	
-				
-			</fieldset>
-			
-		</div>
+	{@@banner}	
+	{@@menu}
+	<div class="row">
+		<div class="span6">
+			<div class="flexslider">
+		  		<ul id="slider" class="slides">
+		  			<li>
+		  				<img src="site_media/img/index/slider/img2.png" class="imgslide" alt="img2.png">	
+		  			</li>
+		  			<li>
+		  				<img src="site_media/img/index/slider/img1.png" class="imgslide" alt="img1.png">	
+		  			</li>
+		  		</ul>
+		  	</div>
+		</div>	
 	</div>
+	
 	
 </body>
 </html>
