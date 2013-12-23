@@ -1,10 +1,12 @@
 #twitter-widget-0{
    width: 100% !important;  
    height: auto;
-   min-height: 350px;
+   min-height: 250px;
+
 }
 .flexslider{
 	margin: 0;
+	margin-bottom: 2%;
 }
 .flex-control-nav{
 	display: none;
@@ -15,7 +17,7 @@
 }
 #fb-root {
     display: none;
-    min-height: 350px;
+    min-height: 250px;
 }
 
 /* To fill the container and nothing else */
