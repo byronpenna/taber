@@ -9,7 +9,7 @@ body{
 	padding: 0;
 }
 .subtextTitle{
-	padding-top: 3%;
+	/*padding-top: 3%;*/
 
 	/*background: green;*/
 }
@@ -41,6 +41,10 @@ h2 .titleText{
 .titleLogo{
 	margin: 0 auto;
 	padding: 0;
+	/*padding-top: 6%;*/
+	display: block;
+	vertical-align: middle;
+	width: 50%;
 }
 .titleBanner{
 	background: #4AA3DF;
@@ -98,14 +102,88 @@ h2 .titleText{
 .nav{
 	margin: 0;
 }
+
 @media(min-width: 1200px){
 	.titleLogo{
-		width: 40%;
+		
 		/*background: green;*/
 	}
+
 }
+@media(min-width: 980px) and (max-width: 1200px){
+	.textBanner img{
+		width: 10%;
+	}
+	.titleLogo{
+		width: 20%;
+		padding: 0;
+	}
+	#listenMusicBanner{
+		/*display: inline-block;*/
+		/*background: pink;*/
+		/*vertical-align: top;*/
+		font-size: 1.3em;
+		width: 40%;
+		margin: 0 auto;
+		border-bottom: solid 1px;
+		margin-bottom: 1%;
+		margin-top: 1%;
+		/*background: gray;*/
+	} 
+	#listenMusicBanner img{
+		width: 20%;
+	}
+	#hiddenInutil{
+		display: none;
+	}
+	#group-listenMusicBanner{
+		/*background: pink;
+		display: block;
+		margin: 0 auto;
+		padding-left: 2%;
+		width: 90%;*/
+	}
+	.contactTitleBanner{
+		margin-top: 1%; 
+		margin-bottom: 1%;
+
+	}
+	.contactTitleBanner h3{
+		font-size: 4em;
+
+		/*letter-spacing: 20px;*/
+	}
+	.contactTitleBanner h4{
+		font-size: 2em;
+	}
+	.socialnetwork{
+		/*background: blue;*/
+	}
+	.socialnetwork img{
+		width: 5%;	
+	}
+}
+
 /* small desktop or tablet */
 @media(min-width: 768px) and (max-width: 979px){
+	#spaceLogo{
+		display: block;
+		width: 95%;
+		margin: 0 auto;
+		/*background: pink;*/
+		padding: 0;
+	}
+	#spaceLogo img{
+		display: block;
+		margin: 0 auto;
+		width: 20%;
+		padding: 0;
+	}
+	#textBanner,#contact{
+		display: block;
+		width: 90%;
+		/*background: green;*/
+	}
 
 }
 /* tablet or smarthphone*/
