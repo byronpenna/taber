@@ -187,10 +187,88 @@ h2 .titleText{
 
 }
 /* tablet or smarthphone*/
-@media(max-width: 767px){
+@media (min-width: 480px) and (max-width: 767px){
+	.textBanner img{
+		width: 10%;
+	}
+	.titleLogo{
+		width: 20%;
+		padding: 0;
+	}
+	#listenMusicBanner{
+		/*display: inline-block;*/
+		/*background: pink;*/
+		/*vertical-align: top;*/
+		font-size: 1.3em;
+		width: 60%;
+		margin: 0 auto;
+		border-bottom: solid 1px;
+		margin-bottom: 1%;
+		margin-top: 1%;
+		/*background: gray;*/
+	} 
+	#listenMusicBanner img{
+		width: 20%;
+	}
+	#hiddenInutil{
+		display: none;
+	}
+	#group-listenMusicBanner{
+		/*background: pink;
+		display: block;
+		margin: 0 auto;
+		padding-left: 2%;
+		width: 90%;*/
+	}
+	.contactTitleBanner{
+		margin-top: 1%; 
+		margin-bottom: 1%;
+		/*background: pink;*/
 
+	}
+	.contactTitleBanner h3{
+		font-size: 3em;
+
+		/*letter-spacing: 20px;*/
+	}
+	.contactTitleBanner h4{
+		font-size: 1em;
+	}
+	.socialnetwork{
+		/*background: blue;*/
+	}
+	.socialnetwork img{
+		width: 5%;	
+	}
 }
 /* Smartphone */
-@media (min-width: 480px){
+@media (min-width: 300px) and (max-width: 479px){
+	.titleBanner{
+		/*background: pink;*/
+	}
+	.titleLogo{
+		width: 30%;
+	}
+	#listenMusicBanner{
+		width: 75%;
+		margin: 0 auto;
+		border-bottom: solid 1px;
+		margin-bottom: 1%;
+		margin-top: 1%;
+	}
+}
+@media (min-width: 0px) and (max-width: 299px){
+	.titleBanner{
+		/*background: green;*/
+	}
+	#listenMusicBanner{
 
+	}
+	.contactTitleBanner h3{
+		font-size: 2.5em;
+		/*background: pink;*/
+	}
+	.contactTitleBanner h4{
+		font-size: 1em;
+	}
 }
