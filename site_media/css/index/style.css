@@ -26,3 +26,79 @@
     width: 100% !important;
     min-height: 350px;
 }
+@media(min-width: 980px) and (max-width: 1200px){
+    /*.titleBanner{
+      background: pink;
+    }*/
+    .fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+      min-height: 0;
+    }
+    .domingo{
+      display: inline-block;
+      /*font-size: 1.3em;*/
+      /*margin-right: 1%;*/
+      width: 30%;
+      /*background: red;*/
+    }
+    #domingo{
+      display: block;
+      margin: 0 auto;
+      width: 50%;
+      /*background: red;*/
+      text-align: center;
+    }
+    .culto,.cultoInfo{
+      display: inline-block;
+      width: 30%;
+      margin-left: 1%;
+      /*background: red;*/
+      vertical-align: top;
+    }
+
+    .culto h4,#titleDomingo{
+      font-size: 2em;
+    }
+    .cultoInfo{
+      width: 45%;
+      font-size: 1.1em;
+    }
+}
+@media(min-width: 768px) and (max-width: 979px){
+    .domingo{
+      /*background: red;*/
+    }
+    .titleBanner{
+      /*background: pink;*/
+    }
+    .map,.diaCulto{
+      width: 90% !important;
+      margin: 0 auto !important;
+      /*background: pink;*/
+      /*background: blue ;*/
+      display: block !important;
+    }
+    .contentMap{
+      width: 90%;
+      margin: 0 auto;
+      display: block;
+    }
+    #domingo{
+      text-align: center;
+    }
+    .leftBody{
+      /*background: yellow;*/
+      width: 99% !important;
+    }
+    .rightBody{
+     width: 99% !important;  
+    }
+
+}
+@media (min-width: 480px) and (max-width: 767px){
+/*  .titleBanner{
+    background: pink;
+  }*/
+  .fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+    min-height: 0;
+  }  
+}
