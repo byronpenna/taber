@@ -36,7 +36,7 @@ body{
 	/*margin-top: 3%;*/
 }
 h2 .titleText{
-	background: pink;	
+	/*background: pink;	*/
 }
 .titleLogo{
 	margin: 0 auto;
@@ -117,6 +117,7 @@ h2 .titleText{
 @media(min-width: 980px) and (max-width: 1200px){
 	.textBanner img{
 		width: 10%;
+		/*background: red;*/
 	}
 	.titleLogo{
 		width: 20%;
@@ -261,7 +262,7 @@ h2 .titleText{
 		margin-top: 1%;
 	}
 }
-@media (min-width: 0px) and (max-width: 299px){
+@media (min-width: 200px) and (max-width: 299px){
 	.titleBanner{
 		/*background: green;*/
 	}
@@ -269,10 +270,46 @@ h2 .titleText{
 
 	}
 	.contactTitleBanner h3{
-		font-size: 2.5em;
+		font-size: 2.1em;
 		/*background: pink;*/
 	}
 	.contactTitleBanner h4{
 		font-size: 1em;
+		/*background: green;*/
 	}
+	#encuentraContenido{
+		font-size: 1em;
+		/*background: red;*/
+		/*text-align: justify;*/
+	}
+	#searchForm{
+		width: 80%;
+		display: block;
+		margin: 0 auto;
+		/*background: green;*/
+		/*margin-bottom: 1%;*/
+
+	}
+	#listenMusicBanner{
+		/*width: 75%;*/
+		margin: 0 auto;
+		border-bottom: solid 1px;
+		margin-bottom: 1%;
+
+		margin-top: 1%;
+
+		/*background: red;*/
+		/*text-align: left;*/
+
+	}
+	#hiddenInutil{
+		display: none;
+	}
+}
+@media (min-width: 0px) and (max-width: 199px){
+	.titleText h1{
+		font-size: 1em;
+		color: red;
+	}
+	
 }

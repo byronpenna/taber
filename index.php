@@ -16,6 +16,4 @@
 	}catch(Exception $x){
 		echo $x->getMessage();
 	}
-	
-
 ?>

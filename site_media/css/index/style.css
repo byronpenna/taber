@@ -95,10 +95,113 @@
 
 }
 @media (min-width: 480px) and (max-width: 767px){
-/*  .titleBanner{
-    background: pink;
-  }*/
   .fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
     min-height: 0;
-  }  
+    /*background: red;*/
+  } 
+  #domingo{
+    /*width: 90%;*/
+    /*background: pink;*/
+    text-align: center;
+    display: inline-block;
+  }
+  .domingo{
+    display: inline-block !important;
+    width: 30% !important;
+    margin: 1%;
+    /*vertical-align: top;*/
+    /*background: yellow;*/
+  }
+  .culto{
+    width: 100%;
+    /*background: pink;*/
+    text-align: center;
+  }
+  .cultoInfo{
+    display: inline-block !important;
+    /*background: yellow;*/
+    width: auto !important;
+  }
+}
+@media (min-width: 300px) and (max-width: 479px){
+  .fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+    min-height: 0;
+    /*background: red;*/
+  }
+  #domingo{
+    /*width: 90%;*/
+    /*background: pink;*/
+    text-align: center;
+    display: inline-block;
+  }
+  .domingo{
+    display: inline-block !important;
+    width: 30% !important;
+    margin: 1%;
+    /*vertical-align: top;*/
+    /*background: yellow;*/
+  }
+  .culto{
+    width: 100%;
+    /*background: pink;*/
+    text-align: center;
+  }
+  .cultoInfo{
+    display: inline-block !important;
+    /*background: yellow;*/
+    width: auto !important;
+  }
+}
+@media (min-width: 200px) and (max-width: 299px){
+  .fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+    min-height: 0;
+    /*background: pink;*/
+  }
+  #domingo{
+    /*width: 90%;*/
+    /*background: pink;*/
+    text-align: center;
+    /*display: inline-block;*/
+  }
+  .domingo{
+    display: inline-block !important;
+    width: 48% !important;
+    margin: 1%;
+    /*vertical-align: top;*/
+    /*background: yellow;*/
+  }
+  .culto{
+    width: 100%;
+    /*background: pink;*/
+    text-align: center;
+  }
+  .cultoInfo{
+    display: inline-block !important;
+    /*background: yellow;*/
+    width: auto !important;
+  }
+  .estamosUbicado{
+    /*background: red;*/
+    text-align: justify;
+  }
+  .titleText{
+    font-size: 1.5em;
+  }
+  .subtextTitle{
+    font-size: 1.2em;
+  }
+  .titleLogo{
+    width: 40%;
+  }
+  .textBanner img {
+    width: 15%;
+  }
+}
+@media (min-width: 0px) and (max-width: 199px){
+  .fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+    background: red;
+  }
+  .estamosUbicado{
+    font-size: 1em;
+  }
 }
